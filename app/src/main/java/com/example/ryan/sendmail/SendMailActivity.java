@@ -52,7 +52,7 @@ public class SendMailActivity extends Activity {
                             }
 
                             //发送邮件,sender.setMessage("你的163邮箱账号", "EmailS//ender", "Java Mail ！");这里面两个邮箱账号要一致
-                            sender.sendEmail("smtp.163.com", "15527927670@163.com", "Hr813114");
+                            sender.sendEmail("smtp.163.com", "15527927670@163.com", "password");
 
                         } catch (AddressException e) {
                             // TODO Auto-generated catch block
